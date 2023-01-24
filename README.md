@@ -1,6 +1,6 @@
 # what is whinsh
 
-This repo helps you extend `whin` gateway service to automate your notification efforts. 
+This repo contains a shell script to help you extend `whin` gateway service to automate your notification efforts. 
 
 This solution utilizes APIs to send messages to WhatsApp groups or individual phone numbers with customizable content, all through a simple and easy-to-use bash script.
 

@@ -8,7 +8,7 @@ if [ "$1" = "whin-create-group" ]; then
     --url https://whin2.p.rapidapi.com/creategroup \
     --header "X-RapidAPI-Host: whin2.p.rapidapi.com" \
     --header "X-RapidAPI-Key: $API_KEY"
-    echo "check WhatsApp to see the new group whin has created for you"
+    echo " Whin just created a WhatsApp group for you, write the command group-id on the group and whin will send you the gid."
 else
     text=$1
     gid=$2

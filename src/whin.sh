@@ -13,7 +13,7 @@ else
     text=$1
     gid=$2
 
-    if ! [[ "$text" =~ ^[a-zA-Z0-9\ !@#%&()=,;.:-_'"?¿¡+*<> ]*$ ]]; then
+    if ! [[ "$text" =~ ^[a-zA-Z0-9\ ]*$ ]]; then
         echo "Error: text parameter must be a string."
         exit 1
     fi

@@ -1,6 +1,8 @@
-# what is whinsh
 
-This repo contains a shell script to help you extend `whin` gateway service to automate your notification efforts. 
+
+This repo contains a shell script to help you extend `whin` gateway service to automate your notification efforts. We call it whinsh.
+
+# what is whinsh
 
 This solution utilizes APIs to send messages to WhatsApp groups or individual phone numbers with customizable content, all through a simple and easy-to-use bash script.
 
@@ -38,7 +40,7 @@ chmod +x /path/to/whin.sh
 ./path/to/whin.sh "message" [gid]
 ```
 
-Where `"message"` is a required parameter which will be the whatsapp message that you will send when the script is ran. As it is a text message, it must be enclosed in quotes. [gid] is an optional parameter, and it must be a number; the gid is the unique identifier of the whatsapp group that you want to send the message to. If you don't know the gid of the group you want to send the messages to, you can learn how to get it [here](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1).
+Where `"message"` is a required parameter which will be the whatsapp message that you will send when the script is ran. As it is a text message, it must be enclosed in quotes. `[gid]` is an optional parameter, and it must be a number; the `gid` is the unique identifier of the whatsapp group that you want to send the message to. If you don't know the gid of the group you want to send the messages to, you can learn how to get it [here](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1).
 
 If the script is executed successfully, the `message` will be sent to the whatsapp group; or directly to you in case the script is executed without the whatsapp group parameter: `gid`.
 

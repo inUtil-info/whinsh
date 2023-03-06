@@ -53,3 +53,13 @@ If the script is executed successfully, the `message` will be sent to the whatsa
 whin can send the messages to whatsapp groups, if you don't have a whatsapp group already you can use this command to create one. 
 When the command is executed, a new group will be created, you will be added to it and promoted to Admin. Depending on your whatsapp settings, you might have to add whin first to your contacts, so that it can invite you to join the group.
 When the group is created, you will need its unique identifier to send whatsapps to it; by default, the name of the group upon creation will be the gid, but you can also get its value reading [this](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1) guide.
+
+
+
+
+---
+
+funciones:
+
+./whin.sh whin-create-group
+./whin.sh whin-send-message "Hello World" 12345678

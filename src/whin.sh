@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG_FILE="whin-config.sh"
+CONFIG_FILE="$(dirname "$0")/config/whinsh.conf"
 
 if [ ! -f "$CONFIG_FILE" ]; then
     echo "Error: configuration file '$CONFIG_FILE' not found"

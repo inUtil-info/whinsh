@@ -33,9 +33,10 @@ chmod +x /path/to/whin.sh
 
 5. Copy the `RapidAPI Key`, then edit the file `ẁhinsh.conf` located on ./src/config/whinsh.conf and paste the key over the placeholder: `YOUR_API_KEY_GOES_HERE`
 
-6. To run the script, use these valid commands:
 
-## to send a whatsapp:
+Once the set up process is completed, you can run the script using these commands:
+
+### to send a whatsapp:
 ```
 ./path/to/whin.sh send "message" [gid]
 ```
@@ -45,7 +46,7 @@ Where `"message"` is a required parameter which will be the whatsapp message tha
 If the script is executed successfully, the `message` will be sent to the whatsapp group; or directly to you in case the script is executed without the whatsapp group parameter: `gid`.
 
 
-## to create a group:
+### to create a whatsapp group:
 whin can send the messages to whatsapp groups, if you don't have a whatsapp group already you can use this command to create one. 
 
 ```

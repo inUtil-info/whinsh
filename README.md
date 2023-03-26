@@ -33,6 +33,7 @@ chmod +x /path/to/whin.sh
 
 5. Copy the `RapidAPI Key`, then edit the file `ẁhinsh.conf` located on ./src/config/whinsh.conf and paste the key over the placeholder: `YOUR_API_KEY_GOES_HERE`
 
+# how to run whinsh
 
 Once the set up process is completed, you can run the script using these commands:
 

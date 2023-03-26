@@ -56,11 +56,6 @@ When the command is executed, a new group will be created, you will be added to 
 When the group is created, you will need its unique identifier to send whatsapps to it; by default, the name of the group upon creation will be the gid, but you can also get its value reading [this](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1) guide.
 
 
-
-
 ---
 
-funciones:
 
-./whin.sh whin-create-group
-./whin.sh whin-send-message "Hello World" 12345678

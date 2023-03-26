@@ -1,6 +1,6 @@
 
 
-This repo contains a shell script to help you extend `whin` gateway service to automate your notification efforts. We call it whinsh.
+This repo contains a shell script to help you extend `whin` gateway service to automate your notification efforts. We call it *whinsh*.
 
 # what is whinsh
 

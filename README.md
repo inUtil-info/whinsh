@@ -14,7 +14,7 @@ Security is also of paramount importance, utilizing encryption to protect your d
 
 
 
-# how to use this Repo
+# how to install whinsh
 
 1. Open a terminal window.
 2. Clone the repo to a directory on your computer.

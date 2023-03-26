@@ -45,16 +45,16 @@ function send_whatsapp_message {
 }
 
 case "$1" in
-    whin-create-group)
+    create-group)
         create_whatsapp_group
         ;;
-    whin-send-message)
+    send)
         text=$2
         gid=$3
         send_whatsapp_message "$text" "$gid"
         ;;
     *)
         echo "Error: invalid command."
-        echo "Usage: $0 {whin-create-group|whin-send-message <text> [<gid>]}"
+        echo "Usage: $0 {create-group|send <text> [<gid>]}"
         exit 1
 esac

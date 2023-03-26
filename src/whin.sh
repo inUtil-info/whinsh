@@ -7,7 +7,6 @@ if [ ! -f "$CONFIG_FILE" ]; then
     exit 1
 fi
 
-# Load configuration from file
 source "$CONFIG_FILE"
 
 function create_whatsapp_group {

@@ -37,7 +37,7 @@ chmod +x /path/to/whin.sh
 
 ## to send a whatsapp:
 ```
-./path/to/whin.sh "message" [gid]
+./path/to/whin.sh send "message" [gid]
 ```
 
 Where `"message"` is a required parameter which will be the whatsapp message that you will send when the script is ran. As it is a text message, it must be enclosed in quotes. `[gid]` is an optional parameter, and it must be a number; the `gid` is the unique identifier of the whatsapp group that you want to send the message to. If you don't know the gid of the group you want to send the messages to, you can learn how to get it [here](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1).
@@ -49,7 +49,7 @@ If the script is executed successfully, the `message` will be sent to the whatsa
 whin can send the messages to whatsapp groups, if you don't have a whatsapp group already you can use this command to create one. 
 
 ```
-./path/to/whin.sh whin-create-group
+./path/to/whin.sh create-group
 ```
 
 When the command is executed, a new group will be created, you will be added to it and promoted to Admin. Depending on your whatsapp settings, you might have to add whin first to your contacts, so that it can invite you to join the group.

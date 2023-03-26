@@ -29,7 +29,7 @@ git clone https://github.com/inUtil-info/whinsh.git
 chmod +x /path/to/whin.sh
 ```
 
-4. When running the script, you need to have an active subscription to whin service (is FREE!!) on RapidAPI and use the `RapidAPI Key` provided. You can obtain the free subscription by visiting [rapidapi.com/whin](https://rapidapi.com/inutil-inutil-default/api/whin2).
+4. When running the script, you need to have an active subscription to whin service (it is FREE!!) on RapidAPI and use the `RapidAPI Key` they provide. You can obtain the free subscription by visiting [rapidapi.com/whin](https://rapidapi.com/inutil-inutil-default/api/whin2).
 
 5. Copy the `RapidAPI Key`, then edit the file `ẁhinsh.conf` located on ./src/config/whinsh.conf and paste the key over the placeholder: `YOUR_API_KEY_GOES_HERE`
 

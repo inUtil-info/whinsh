@@ -4,8 +4,8 @@ This repo contains a shell script to help you extend `whin` gateway service to a
 
 # what is whinsh?
 
-Whinsh is an extension for the whin backend service that allows you to send WhatsApp notifications programmatically from your home server, such as a Raspberry Pi. Whin provides the logic for the service, while Whinsh acts as a lightweight tool that allows you to easily send notifications to you, or to a Whatsapp Group owned by you. 
-With Whinsh, you can configure your home server to send notifications automatically based on certain triggers, such as a change in temperature or a motion sensor being triggered. This tool provides a convenient way to stay connected with your WhatsApp contacts and receive important notifications on the go, without having to rely on a mobile device.
+Whinsh is an extension for the whin backend service that allows you to send WhatsApp notifications programmatically from your home server, such as a Raspberry Pi. Whin provides the logic for the service, while whinsh acts as a lightweight tool that allows you to easily send notifications to you, or to a Whatsapp Group owned by you. 
+With whinsh, you can configure your home server to send notifications automatically based on certain triggers, such as a change in temperature or a motion sensor being triggered. This tool provides a convenient way to receive important notifications on the go.
 
 
 

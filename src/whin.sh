@@ -21,6 +21,11 @@ function send_whatsapp_message {
     text=$1
     gid=$2
 
+    if ! echo "$text" | grep -qP '^[[:print:]\t\n\r]*$'; then
+        echo "Error: text parameter must be a string."
+        exit 1
+    fi
+
     if [ -n "$gid" ]; then
         if ! [[ $gid =~ ^[0-9]+$ ]]; then
             echo "Error: gid parameter must be a number."
@@ -35,7 +40,7 @@ function send_whatsapp_message {
     --header "X-RapidAPI-Host: $WHIN_API_HOST" \
     --header "X-RapidAPI-Key: $WHIN_API_KEY" \
     --header 'content-type: application/json' \
-    --data "{\"text\":\"$text\"}" -d "$text"
+    --data "{\"text\":\"$text\"}"
 }
 
 case "$1" in

@@ -32,15 +32,6 @@ chmod +x /path/to/whin.sh
 
 Once the set up process is completed, you can run the script using these commands:
 
-### to send a whatsapp:
-```
-./path/to/whin.sh send "message" [gid]
-```
-
-Where `"message"` is a required parameter which will be the whatsapp message that you will send when the script is ran. As it is a text message, it must be enclosed in quotes. `[gid]` is an optional parameter, and it must be a number; the `gid` is the unique identifier of the whatsapp group that you want to send the message to. If you don't know the gid of the group you want to send the messages to, you can learn how to get it [here](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1).
-
-If the script is executed successfully, the `message` will be sent to the whatsapp group; or directly to you in case the script is executed without the whatsapp group parameter: `gid`.
-
 
 ### to create a whatsapp group:
 whin can send the messages to whatsapp groups, if you don't have a whatsapp group already you can use this command to create one. 
@@ -53,6 +44,16 @@ When the command is executed, a new group will be created, you will be added to 
 When the group is created, you will need its unique identifier to send whatsapps to it; by default, the name of the group upon creation will be the gid, but you can also get its value reading [this](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1) guide.
 
 
+### to send a whatsapp:
+```
+./path/to/whin.sh send "message" [gid]
+```
+
+Where `"message"` is a required parameter which will be the whatsapp message that you will send when the script is ran. As it is a text message, it must be enclosed in quotes. `[gid]` is an optional parameter, and it must be a number; the `gid` is the unique identifier of the whatsapp group that you want to send the message to. If you don't know the gid of the group you want to send the messages to, you can learn how to get it [here](https://rapidapi.com/inutil-inutil-default/api/whin2/tutorials/how-to-use-the-groups-category-to-send-and-receive-whatsapps-to%2Ffrom-groups%3F-1).
+
+If the script is executed successfully, the `message` will be sent to the whatsapp group; or directly to you in case the script is executed without the whatsapp group parameter: `gid`.
+
+
 
 
 ---
@@ -60,7 +61,7 @@ When the group is created, you will need its unique identifier to send whatsapps
 
 MIT License
 
-Copyright (c) [2023] [lu4t]
+Copyright (c) [2023] [inUtil Labs]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), 
 to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, 

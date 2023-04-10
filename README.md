@@ -54,6 +54,9 @@ Where `"message"` is a required parameter which will be the whatsapp message tha
 If the script is executed successfully, the `message` will be sent to the whatsapp group; or directly to you in case the script is executed without the whatsapp group parameter: `gid`.
 
 
+# Demo:
+
+You can watch a recorded demo clicking here: https://youtu.be/MeorP_ax108
 
 
 ---
